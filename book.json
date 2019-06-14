@@ -1,5 +1,5 @@
 {
-    "author": "Chengwei Yang <me@chengweiyang.cn>",
+    "author": "Liu Huachao <liuhuachao@foxmail.com>",
     "description": "A GitBook about learning GitBook",
     "extension": null,
     "generator": "site",
@@ -13,8 +13,8 @@
             "weibo": null
         },
         "sidebar": {
-            "About Me": "http://www.chengweiyang.cn/about",
-            "Chengwei's Blog": "http://www.chengweiyang.cn"
+            "About Me": "http://www.liuhuachao.com",
+            "My Blog": "http://www.liuhuachao.com/blog"
         }
     },
     "output": null,

@@ -1,19 +1,13 @@
 {
+    "title": "GitBook 简明教程",
     "author": "Liu Huachao <liuhuachao@foxmail.com>",
     "description": "A GitBook about learning GitBook",
+    "language": "zh-hans",
     "extension": null,
     "generator": "site",
     "links": {
-        "sharing": {
-            "all": null,
-            "facebook": null,
-            "google": null,
-            "twitter": null,
-            "weibo": null
-        },
         "sidebar": {
-            "About Me": "http://www.liuhuachao.com",
-            "My Blog": "http://www.liuhuachao.com/blog"
+            "About Me": "http://www.liuhuachao.com"
         }
     },
     "output": null,
@@ -31,12 +25,31 @@
         "paperSize": "a4"
     },
     "plugins": [
+        "theme-comscore",
+        "github",
+        "splitter",
+        "chapter-fold",
+        "back-to-top-button",
+        "-sharing",
+        "sharing-plus",
+        "-search",
+        "search-pro",
+        "fontsettings"
     ],
     "pluginsConfig": {
-        "disqus": {
-            "shortName": "introducetogitbook"
+        "theme-default": {
+            "showLevel": true
+        },
+        "github": {
+            "url": "https://github.com/liuhuachao/gitbook"
+        },
+        "sharing": {
+            "twitter": true,
+            "weibo": true,
+            "all": [
+                "twitter", "facebook", "google", "weibo", "qzone", "douban"
+            ]
         }
     },
-    "title": "GitBook 简明教程",
     "variables": {}
 }
